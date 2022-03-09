@@ -12,7 +12,7 @@
 RootModule = 'linqpad-folders-powershell-module.psm1'
 
 # Version number of this module.
-ModuleVersion = '0.1.0.0'
+ModuleVersion = '0.1.0.1'
 
 # Supported PSEditions
 # CompatiblePSEditions = @()
@@ -21,13 +21,13 @@ ModuleVersion = '0.1.0.0'
 GUID = '51301f0d-942d-4e0b-a1d5-364f6ca38b14'
 
 # Author of this module
-Author = 'willh'
+Author = 'Will 保哥'
 
 # Company or vendor of this module
 CompanyName = 'Duotify Inc.'
 
 # Copyright statement for this module
-Copyright = '(c) Will Huang. All rights reserved.'
+Copyright = '© Will Huang. All rights reserved.'
 
 # Description of the functionality provided by this module
 Description = 'This script is used for creating symbolic link for LINQPad Plugins, LINQPad Queries, and LINQPad Snippets folders to a folder from Dropbox, Google Drive, ...etc. So that you can share your scripts between multiple machines.'
@@ -100,13 +100,13 @@ PrivateData = @{
         Tags = @('Windows', 'LINQPad')
 
         # A URL to the license for this module.
-        # LicenseUri = ''
+        LicenseUri = 'https://github.com/doggy8088/linqpad-folders-powershell-module/blob/main/LICENSE'
 
         # A URL to the main website for this project.
-        # ProjectUri = ''
+        ProjectUri = 'https://github.com/doggy8088/linqpad-folders-powershell-module'
 
         # A URL to an icon representing this module.
-        # IconUri = ''
+        IconUri = 'https://user-images.githubusercontent.com/88981/157553574-b5e5b48e-4654-4ce0-842d-e6cf6eca4d57.png'
 
         # ReleaseNotes of this module
         # ReleaseNotes = ''
@@ -115,7 +115,7 @@ PrivateData = @{
         # Prerelease = ''
 
         # Flag to indicate whether the module requires explicit user acceptance for install/update/save
-        # RequireLicenseAcceptance = $false
+        RequireLicenseAcceptance = $false
 
         # External dependent modules of this module
         # ExternalModuleDependencies = @()

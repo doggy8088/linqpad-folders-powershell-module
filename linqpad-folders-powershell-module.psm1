@@ -1,8 +1,6 @@
 ﻿function Set-LINQPadFolder {
 
-     [CmdletBinding(
-         SupportsShouldProcess
-     )]
+    [CmdletBinding(SupportsShouldProcess)]
     param(
         [Parameter()]
         [string]
