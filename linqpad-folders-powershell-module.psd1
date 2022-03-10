@@ -12,7 +12,7 @@
 RootModule = 'linqpad-folders-powershell-module.psm1'
 
 # Version number of this module.
-ModuleVersion = '0.1.0.1'
+ModuleVersion = '0.1.0.2'
 
 # Supported PSEditions
 # CompatiblePSEditions = @()
